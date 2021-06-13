@@ -1,10 +1,9 @@
-package controllers;
+package com.example.Jokes.app.controllers;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import services.JokesService;
+import com.example.Jokes.app.services.JokesService;
 
 @Controller
 public class JokesController {
